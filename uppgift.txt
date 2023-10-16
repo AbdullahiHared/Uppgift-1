@@ -1,0 +1,9 @@
+Du ska skapa ett frågesport-program.
+Ditt program ska ha 5 frågor.
+Användaren får en fråga och ska sedan svara med tangentbordet.
+Användaren ska få 1 poäng för varje rätt svar hen gör och 0 poäng vid fel svar.
+I slutet ska användaren få reda på hur många poäng hen fick och vad maxpoängen är.
+
+
+
+  
