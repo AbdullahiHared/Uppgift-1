@@ -5,5 +5,14 @@ Användaren ska få 1 poäng för varje rätt svar hen gör och 0 poäng vid fel
 I slutet ska användaren få reda på hur många poäng hen fick och vad maxpoängen är.
 
 
+Du ska jobba vidare med ditt frågesport-program (uppg1 från förra lektionen) .
+Ditt program ska ha 2 frågor till.
+Dessa 2 frågor ska ha 3 svars-alternativ.
+Användaren ska svara med tangentbordet för ett av dessa alternativ.
+Svaret måste vara korrekt ex: 1 eller 2 eller 3 är korrekta inmatningar.
+Inkorrekt inmatning är alla andra tecken än 1,2 och3, exempelvis 4.
+Om användaren ger inkorrekt inmatning så ska programmet ge ett fel-meddelande och ge ett nytt
+försök, du behöver använda loopar för detta.
+Användaren ska få 1 poäng för varje rätt svar hen gör och 0 poäng vid fel svar.
+I slutet ska användaren få reda på hur många poäng hen fick och vad maxpoängen är.
 
-  

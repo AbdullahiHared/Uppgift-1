@@ -35,6 +35,57 @@ public class main {
         sc.nextLine();
 
         
+        System.out.println("What is 1 + 1");
+        System.out.println("34, 3 or 2");
+        int add = sc.nextInt();
+        boolean additionAnswer = add == 2;
+
+
+
+
+
+
+        System.out.println("What is 4-3");
+        System.out.println("1, 3 or 2");
+        int subtract = sc.nextInt();
+        boolean subtractAnswer = subtract == 1;
+        sc.nextLine();
+
+
+        
+        System.out.println("When did ww2 end");
+        System.out.println("2034, 2023, 1945");
+        int war = sc.nextInt();
+        boolean ww2 = war == 1945;
+
+        if (additionAnswer) {
+            userPoints+=1;
+        } else {
+            System.out.println("Wrong");
+            System.out.println("What is 1 + 1");
+            System.out.println("34, 3 or 2");
+            add = sc.nextInt();
+        }
+
+        if (subtractAnswer) {
+            userPoints+=1;
+        }  else {
+             System.out.println("Wrong");
+             System.out.println("What is 4-3");
+             System.out.println("1, 3 or 2");
+             add = sc.nextInt();
+        }
+
+        if (ww2) {
+            userPoints+=1;
+        } else {
+            System.out.println("Wrong");
+            System.out.println("When did ww2 end");
+            System.out.println("2034, 2023, 1945");
+            war = sc.nextInt();
+        }
+
+        
        if (checkFirst) {
         userPoints+= 1;
        } if (checkSecond) {
@@ -47,6 +98,6 @@ public class main {
         userPoints+=1;
        } 
 
-       System.out.println("Du fick " + userPoints + " poäng " + 5);
+       System.out.println("Du fick " + userPoints + " poäng " + 8);
     }
 }
